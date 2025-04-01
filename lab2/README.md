@@ -33,3 +33,8 @@ ansible-playbook -i hosts.ini mikr.yml
 ![image](https://github.com/user-attachments/assets/ec8b4c7e-7125-4bf0-b4d0-bf9aa4778bfa)
 
 ![image](https://github.com/user-attachments/assets/b4b3cbbd-058f-473c-92ee-e88ac54e07a6)
+
+![image](https://github.com/user-attachments/assets/6e9aade5-d0db-48b5-86f2-d619c7033db3)
+
+![image](https://github.com/user-attachments/assets/655f8722-0ff9-4c85-9b2e-621e0bb67c49)
+
