@@ -25,6 +25,8 @@ Date of finished: 02.04.2025
 Закидываем их на сервер и запускаем
 ansible-playbook -i hosts.ini mikr.yml
 
-![image](images/Screenshot 2025-04-01 213739.png)
 
-![image](images/Screenshot 2025-04-01 213854.png)
+![image](https://github.com/user-attachments/assets/b4b3cbbd-058f-473c-92ee-e88ac54e07a6)
+
+![image](https://github.com/user-attachments/assets/ec8b4c7e-7125-4bf0-b4d0-bf9aa4778bfa)
+
