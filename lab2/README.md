@@ -19,7 +19,11 @@ Date of finished: 02.04.2025
 
 ## Ansible
 
-Создаем ansible файл 
+Создаем ansible файлы:
+
+[hosts.ini](Ansible/hosts.ibi), где хранятся все важные переменные
+
+[mikr.yml](Ansible.yml), где хранится сам playbook с коммандами
 
 
 Закидываем их на сервер и запускаем
