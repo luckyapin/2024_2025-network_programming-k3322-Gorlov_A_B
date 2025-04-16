@@ -1,0 +1,103 @@
+{
+    "_meta": {
+        "hostvars": {
+            "CHR1": {
+                "ansible_connection": "network_cli",
+                "ansible_host": "192.168.1.107",
+                "ansible_network_os": "routeros",
+                "ansible_password": "admin",
+                "ansible_ssh_pass": "admin",
+                "ansible_user": "admin",
+                "custom_fields": {
+                    "ssh_password": "admin",
+                    "ssh_user": "admin"
+                },
+                "device_roles": [
+                    "chr"
+                ],
+                "device_types": [
+                    "chr"
+                ],
+                "is_virtual": false,
+                "local_context_data": [
+                    null
+                ],
+                "locations": [],
+                "manufacturers": [
+                    "mikrotik"
+                ],
+                "mikrotik_password": "admin",
+                "mikrotik_username": "admin",
+                "netbox_token": "04bc9332c76503d25eaec53e4982608f0b60d3fa",
+                "netbox_url": "http://127.0.0.1:8000",
+                "primary_ip4": "192.168.1.107",
+                "regions": [],
+                "serial": "gfXCJUHZFrO",
+                "services": [],
+                "site_groups": [],
+                "sites": [
+                    "luckyapin"
+                ],
+                "status": {
+                    "label": "Active",
+                    "value": "active"
+                },
+                "tags": []
+            },
+            "chr2": {
+                "ansible_connection": "network_cli",
+                "ansible_host": "192.168.1.106",
+                "ansible_network_os": "routeros",
+                "ansible_password": "admin",
+                "ansible_ssh_pass": "admin",
+                "ansible_user": "admin",
+                "custom_fields": {
+                    "ssh_password": "admin",
+                    "ssh_user": "admin"
+                },
+                "device_roles": [
+                    "chr"
+                ],
+                "device_types": [
+                    "chr"
+                ],
+                "is_virtual": false,
+                "local_context_data": [
+                    null
+                ],
+                "locations": [],
+                "manufacturers": [
+                    "mikrotik"
+                ],
+                "mikrotik_password": "admin",
+                "mikrotik_username": "admin",
+                "netbox_token": "04bc9332c76503d25eaec53e4982608f0b60d3fa",
+                "netbox_url": "http://127.0.0.1:8000",
+                "primary_ip4": "192.168.1.106",
+                "regions": [],
+                "serial": "tV+47qNUenN",
+                "services": [],
+                "site_groups": [],
+                "sites": [
+                    "luckyapin"
+                ],
+                "status": {
+                    "label": "Active",
+                    "value": "active"
+                },
+                "tags": []
+            }
+        }
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    },
+    "ungrouped": {
+        "hosts": [
+            "CHR1",
+            "chr2"
+        ]
+    }
+}
