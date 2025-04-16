@@ -1,0 +1,28 @@
+---
+- name: Get serial number
+  hosts: all
+  gather_facts: false
+  tasks:
+
+    - name: Get serial number
+      community.routeros.command:
+        commands:
+          - /system license print
+      register: license
+    - name: Get name
+      community.routeros.command:
+        commands:
+          - /system identity print
+      register: identity
+
+    - name: Update devices
+      netbox.netbox.netbox_device:
+        netbox_url: http://127.0.0.1:8000
+        netbox_token: 04bc9332c76503d25eaec53e4982608f0b60d3fa
+        data: 
+          name: "{{identity.stdout_lines[0][0].split(' ')[1]}}"
+          serial: "{{license.stdout_lines[0][0].split(' ')[1]}}"
+          device_type: "chr"  
+          device_role: "CHR"  
+          site: "luckyapin" 
+        state: present
