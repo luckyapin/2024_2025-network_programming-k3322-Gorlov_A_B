@@ -1,0 +1,15 @@
+---
+- name: Task 3.4 from NetBox
+  hosts: allS
+  gather_facts: false
+  tasks:
+
+    - name: Set router identity (from hostname)
+      community.routeros.command:
+        commands:
+          - /system identity set name={{ inventory_hostname }}
+
+    - name: Create loopback interface from NetBox custom fields
+      community.routeros.command:
+        commands:
+          - /ip address add address={{ hostvars[inventory_hostname].custom_fields.ip_address }} interface={{ hostvars[inventory_hostname].custom_fields.interface }}
