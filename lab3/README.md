@@ -42,3 +42,5 @@ Date of finished: 16.04.2025
 
 ![image](https://github.com/user-attachments/assets/6f452615-b7c2-4e1d-a41e-8e5dfe833dd5)
 
+
+
